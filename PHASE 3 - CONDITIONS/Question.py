@@ -1,4 +1,4 @@
-# # Even or Odd
+# 1. Write a program to check whether a number is even or odd.
 # num = int(input("Enter val :"))
 # if num%2==0:
 #     print("Even")
@@ -7,7 +7,7 @@
 
 #-------------------------------------------------#
 
-# Positive, Negative, or Zero
+# 2. Write a program to check whether a number is positive, negative, or zero.
 # val = int(input("Enter any num : "))
 # if val>0:
 #     print("Positive")
@@ -18,7 +18,7 @@
 
 #-------------------------------------------------#
 
-# Largest of Two Numbers
+# 3. Write a program to find the largest of two numbers.
 # num1 = int(input("Num1 : "))
 # num2 = int(input("Num2 : "))
 # if num1>num2:
@@ -30,7 +30,7 @@
 
 #-------------------------------------------------#
 
-# Largest of Three Numbers
+# 4. Write a program to find the largest of three numbers.
 # num1 = int(input("Num1 : "))
 # num2 = int(input("Num2 : "))
 # num3 = int(input("Num3 : "))
@@ -47,7 +47,7 @@
 
 #-------------------------------------------------#
 
-# Smallest of Three Numbers
+# 5. Write a program to find the smallest of three numbers.
 # num1 = int(input("Num1 : "))
 # num2 = int(input("Num2 : "))
 # num3 = int(input("Num3 : "))
@@ -65,7 +65,7 @@
 
 #-------------------------------------------------#
 
-# Leap Year
+# 6. Write a program to check whether a given year is a leap year.
 # year = int(input("Enter Year : "))
 # if year%100==0:
 #     if year%400 ==0:
@@ -80,7 +80,7 @@
 
 #-------------------------------------------------#
 
-# Eligible for Voting
+# 7. Write a program to check whether a person is eligible to vote.
 # age = int(input("Enter age : "))
 # if age >= 18 :
 #     print("Can Vote")
@@ -89,7 +89,7 @@
 
 #-------------------------------------------------#
 
-# Pass or Fail
+# 8. Write a program to check whether a student has passed or failed based on marks.
 # marks = int(input("Enter Marks : "))
 # if marks > 33 :
 #     print("pass")
@@ -98,7 +98,7 @@
 
 #-------------------------------------------------#
 
-# Grade Calculator
+# 9. Write a program to calculate a student's grade based on marks.
 # percentage = int(input("Enter % : "))
 # grade= ""
 # if 60 <= percentage < 75:
@@ -110,3 +110,49 @@
 # else :
 #     grade = "D"
 # print("Grade is : ",grade)
+
+#-------------------------------------------------#
+
+# 10. Write a program to check whether a number is both positive and even.
+
+#-------------------------------------------------#
+
+# 11. Write a program to validate a person's age within an acceptable range.
+
+#-------------------------------------------------#
+
+# 12. Write a program to check whether a given day is a weekend.
+
+#-------------------------------------------------#
+
+# 13. Write a program to check login access using a username and password.
+
+#-------------------------------------------------#
+
+# 14. Write a program to find the largest of three numbers using the and operator.
+
+#-------------------------------------------------#
+
+# 15. Write a program to check whether three given sides form a valid triangle.
+
+#-------------------------------------------------#
+
+# 16. Write a program to check discount eligibility based on purchase amount.
+
+#-------------------------------------------------#
+
+# 17. Write a program to check whether a password meets security conditions.
+
+#-------------------------------------------------#
+
+# 18. Write a program to validate marks entered are within an allowed range.
+
+#-------------------------------------------------#
+
+# 19. Write a program to check admission eligibility based on marks and age.
+
+#-------------------------------------------------#
+
+# 20. Write a program to categorize BMI into underweight, normal, or overweight
+
+#-------------------------------------------------#

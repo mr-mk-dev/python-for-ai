@@ -1,6 +1,6 @@
 #----Variables & Operators------
 
-# Area of Rectangle
+# 1. Write a program to calculate the area of a rectangle.
 b = 10
 l = 15
 area = l * b
@@ -8,19 +8,19 @@ print(area)
 
 #-------------------------------------------------#
 
-# Area of Circle
+# 2. Write a program to calculate the area of a circle.
 r = 7
 area = 3.14*r*r
 
 #-------------------------------------------------#
 
-# Perimeter of Circle
+# 3. Write a program to calculate the circumference of a circle.
 radius = 7
 perimeter = 2*3.14*radius
 
 #-------------------------------------------------#
 
-# Simple Interest
+# 4. Write a program to calculate simple interest for given principal, rate, and time.
 p = 10000
 r = 10
 time = 5
@@ -29,7 +29,7 @@ print(si)
 
 #-------------------------------------------------#
 
-# Compound Interest
+# 5. Write a program to calculate compound interest for given principal, rate, and time.
 p = 1000
 t = 3.0
 r = 10
@@ -39,19 +39,19 @@ print(ci)
 
 #-------------------------------------------------#
 
-# Square of a number
+# 6. Write a program to calculate the square of a given number.
 num = 15
 print(15**2)
 
 #-------------------------------------------------#
 
-# Cube of a number
+# 7. Write a program to calculate the cube of a given number.
 num2 = 10
 print(10**3)
 
 #-------------------------------------------------#
 
-# Power (a^b)
+# 8. Write a program to calculate the power of a number (a raised to b).
 num3 = 20
 power = 4
 print(num3 ** power)
