@@ -114,10 +114,17 @@
 #-------------------------------------------------#
 
 # 10. Write a program to check whether a number is both positive and even.
+# num = int(input("Enter Num : "))
+# if num>0 and num%2==0:
+#     print("Positive and even")
+# else:
+#     print("Not Sure")
 
 #-------------------------------------------------#
 
 # 11. Write a program to validate a person's age within an acceptable range.
+age = int(input("Enter Age : "))
+
 
 #-------------------------------------------------#
 
