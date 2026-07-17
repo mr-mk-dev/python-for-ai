@@ -123,32 +123,96 @@
 #-------------------------------------------------#
 
 # 11. Write a program to validate a person's age within an acceptable range.
-age = int(input("Enter Age : "))
-
+# age = int(input("Enter Age : "))
+# if 0 < age < 100 :
+#     print("Valid Age")
+# else:
+#     print("Invalid Age")
 
 #-------------------------------------------------#
 
 # 12. Write a program to check whether a given day is a weekend.
+# day = input("Enter Day :")
+# if day == "Sunday" or day == "Saturday" :
+#     print("Weekend")
+# else :
+#     print("Not a weekend")
 
 #-------------------------------------------------#
 
 # 13. Write a program to check login access using a username and password.
+# username = "Manish"
+# password = "Pass"
+# login_id = input("Enter username : ")
+# login_pass = input("Enter Password : ")
+# if login_id == username and login_pass == password :
+#     print("Login successes")
+# else:
+#     print("Invalid Userid or password")
 
 #-------------------------------------------------#
 
 # 14. Write a program to find the largest of three numbers using the and operator.
+# a = int(input("A:"))
+# b = int(input("B:"))
+# c = int(input("C:"))
+#
+# if a > b and a > c :
+#     print("A is greater")
+# elif b > a and b > c :
+#     print("B is greater")
+# elif c > a and c > b :
+#     print("C is Greater")
+# else :
+#     print("Equal")
 
 #-------------------------------------------------#
 
-# 15. Write a program to check whether three given sides form a valid triangle.
+# 15. Write a program to check whether three given sides form a valid triangle
+# a = int(input("Side a : "))
+# b = int(input("Side b : "))
+# c = int(input("Side c : "))
+# if a > b+c or b > a+c or c > b+a :
+#     print("Invalid Triangle")
+# else :
+#     print("Valid Triangle")
 
 #-------------------------------------------------#
 
 # 16. Write a program to check discount eligibility based on purchase amount.
+# ball = 1000
+# b_dis = 10
+#
+# bat = 500
+# bat_dis = 12
+#
+# fan = 1200
+# f_dis = 15
+#
+# table = 2400
+# t_dis = 24
+#
+# item = input("Enter Item Name : ")
+# if item == "ball" :
+#     print(ball - ball * b_dis/100)
+# elif item == "bat" :
+#     print(bat - bat * bat_dis/100)
+# elif item == "fan" :
+#     print(fan - fan*f_dis/100)
+# elif item == "table" :
+#     print(table - table*t_dis/100)
+# else:
+#     print("Invalid Item")
 
 #-------------------------------------------------#
 
 # 17. Write a program to check whether a password meets security conditions.
+password = input("Enter Password : ")
+
+if len(password) > 8 :
+    print("Strong Pass")
+else :
+    print("Not a strong pass")
 
 #-------------------------------------------------#
 
