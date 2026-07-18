@@ -1,4 +1,5 @@
 # 1. Write a program to print numbers from 1 to N.
+
 # i = 1
 # n = 10
 # while i <= n :
@@ -11,6 +12,7 @@
 #-------------------------------------------------#
 
 # 2. Write a program to print numbers from N down to 1.
+
 # n = int(input("Enter N : "))
 # while n > 0:
 #     print(n)
@@ -34,6 +36,7 @@
 #-------------------------------------------------#
 
 # 4. Write a program to print the multiplication table of a number.
+
 # n = int(input("Enter table : "))
 # for i in range(1,11) :
 #     print(n*i," ")
@@ -41,6 +44,7 @@
 #-------------------------------------------------#
 
 # 5. Write a program to calculate the factorial of a number.
+
 # fact = 1
 # while n > 0 :
 #     fact*=n
@@ -51,21 +55,57 @@
 
 # 6. Write a program to reverse the digits of a number.
 
+# n1 = int(input("Enter any number : "))
+# n2 = 0
+# while n1 != 0 :
+#     n2 = n2 * 10 + (n1%10)
+#     n1 //= 10
+# print(n2)
+
 #-------------------------------------------------#
 
 # 7. Write a program to count the number of digits in a number.
+
+# num = int(input("Enter Number : "))
+# count = 0
+# while num != 0 :
+#     num //=10
+#     count+=1
+# print(count)
 
 #-------------------------------------------------#
 
 # 8. Write a program to find the sum of digits of a number.
 
+# num = int(input("Enter Number : "))
+# totalSum = 0
+# while num != 0 :
+#     totalSum+= num%10
+#     num//=10
+# print(totalSum)
+
 #-------------------------------------------------#
 
 # 9. Write a program to find the product of digits of a number.
 
+# num = int(input("Enter num : "))
+# product = 1
+# while num != 0 :
+#     product*=num%10
+#     num//=10
+# print(product)
+
 #-------------------------------------------------#
 
 # 10. Write a program to check whether a number is a palindrome.
+
+# num1 = int(input("Enter num : "))
+# temp = num1
+# num2 = 0
+# while num1 != 0:
+#     num2 = (num2 * 10) + num1%10
+#     num1 = num1//10
+# print(num2 == temp)
 
 #-------------------------------------------------#
 
