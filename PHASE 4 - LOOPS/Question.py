@@ -1,3 +1,6 @@
+import math
+from multiprocessing.spawn import freeze_support
+
 # 1. Write a program to print numbers from 1 to N.
 
 # i = 1
@@ -111,25 +114,91 @@
 
 # 11. Write a program to check whether a number is an Armstrong number.
 
+# n = int(input("Enter : "))
+# temp = n
+# digit = int(math.log10(n)+1)
+# total = 0
+# while n != 0 :
+#     total += math.pow(n%10,digit)
+#     n//=10
+# print(total == temp )
+
 #-------------------------------------------------#
 
 # 12. Write a program to check whether a number is a strong number.
+
+# num = int(input("Enter num : "))
+# n = num
+# final_num = 0
+# while n != 0:
+#     digit = n % 10
+#     val = 1
+#     for i in range(1,digit+1):
+#         val*=i
+#     final_num+=val
+#     n//=10
+# print(final_num == num)
 
 #-------------------------------------------------#
 
 # 13. Write a program to check whether a number is a perfect number.
 
+# original_num / 0
+# for i in range(1,original_num//2+1):
+#     if original_num%i==0:
+#         total_val+=i
+# print(original_num == total_val)
+
 #-------------------------------------------------#
 
-# 14. Write a program to check whether a number is prime.
+# 14. Write a program to check whether a number is prime
+
+# num = int(input("Enter num :" ))
+# con = 0
+# for i in range(2,int(math.sqrt(num)) + 1):
+#     if num % i == 0 :
+#         con = 1
+#         break
+# if con == 0 :
+#     print("Prime")
+# else :
+#     print("Not Prime")
+
 
 #-------------------------------------------------#
 
 # 15. Write a program to print all prime numbers within a given range.
 
+# range1 = int(input("Enter from range : "))
+# range2 = int(input("Enter upto range : "))
+#
+# for num in range(range1, range2 + 1):
+#     if num < 2:
+#         continue
+#
+#     flag = 0
+#
+#     for i in range(2, num):
+#         if num % i == 0:
+#             flag = 1
+#             break
+#
+#     if flag == 0:
+#         print(num)
+
 #-------------------------------------------------#
 
 # 16. Write a program to print the Fibonacci series up to N terms.
+
+first = 0
+second = 1
+n = int(input("Enter val : "))
+
+for i in range(n):
+    print(first)
+    temp =second
+    second = first + second
+    first = temp
 
 #-------------------------------------------------#
 
