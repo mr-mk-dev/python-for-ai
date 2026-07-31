@@ -97,45 +97,78 @@
 
 # 10. Write a function to generate the Fibonacci series up to N terms.
 
-# n = int(input("Enter n : "))
-# first = 0
-# second = 1
-# for i in range(0,n-2):
-#     print(first)
-#     temp = second
-#     second = first+second
-#     first = temp
+# def fibo(n) :
+#     first = 0
+#     second = 1
+#     for i in range(0,n-2):
+#         print(first)
+#         temp = second
+#         second = first+second
+#         first = temp
+# fibo(int(input("Enter Seq : ")))
 
 #--------------------------------------------------------------------------------------#
 
 # 11. Write a function to check whether a number is a palindrome.
-num = int(input("Enter number : "))
-n = num
-rev = 0
-while n > 0 :
-    rev = (rev * 10 ) + (n % 10)
-    n = n//10
-print(num == rev)
+
+# def checkPalindrome(num):
+#     n = num
+#     rev = 0
+#     while n > 0 :
+#         rev = (rev * 10 ) + (n % 10)
+#         n = n//10
+#     print(num == rev)
+#
+# checkPalindrome(int(input("Enter Num : ")))
 
 #--------------------------------------------------------------------------------------#
 
 # 12. Write a function to calculate the sum of digits of a number.
 
-#--------------------------------------------------------------------------------------#
+# def sumofdigit(val):
+#     total = 0
+#     while val > 0 :
+#         total = total + val % 10
+#         val = val // 10
+#     print(total)
+#
+# sumofdigit(int(input("Enter value   : ")))
+
+#------------------------------------------------------------------------------------#
 
 # 13. Write a function to reverse the digits of a number.
+
+# def rev(num) :
+#     sec_num = 0
+#     while num > 0 :
+#         sec_num = sec_num * 10 + num % 10
+#         num = num // 10
+#     print(sec_num)
+#
+# num = int(input("Enter num : "))
+# rev(num)
+
 
 #--------------------------------------------------------------------------------------#
 
 # 14. Write a function to calculate the average of a list of numbers.
+final_num = 0
+while True:
+    num = int(input("Enter val : "))
+    if num < 0 :
+        break
+    final_num = (final_num + num)//2
+print("Average is : " , final_num)
 
 #--------------------------------------------------------------------------------------#
 
 # 15. Write a function to calculate the area of different shapes.
 
+
 #--------------------------------------------------------------------------------------#
 
 # 16. Write a program to build a simple calculator using functions.
+
 
 #--------------------------------------------------------------------------------------#
 
