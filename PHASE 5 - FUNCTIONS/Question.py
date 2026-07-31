@@ -4,6 +4,7 @@
 # x = int(input("Enter the first number: "))
 # y = int(input("Enter the second number: "))
 # print(add(x,y))
+import math
 
 
 #-------------------------------------------------------------------------#
@@ -152,38 +153,101 @@
 #--------------------------------------------------------------------------------------#
 
 # 14. Write a function to calculate the average of a list of numbers.
-final_num = 0
-while True:
-    num = int(input("Enter val : "))
-    if num < 0 :
-        break
-    final_num = (final_num + num)//2
-print("Average is : " , final_num)
+
+# def calculateAvg():
+#     final_num = 0
+#     counter = -1
+#     while True:
+#         num = int(input("Enter val : "))
+#         counter+=1
+#         if num < 0 :
+#             break
+#         final_num = (final_num + num)
+#     print("Average is : " , final_num/counter)
+# calculateAvg()
 
 #--------------------------------------------------------------------------------------#
 
 # 15. Write a function to calculate the area of different shapes.
-
+# def shapeArea():
+#     choose = int(input("Enter 1 for square , 2 for circle , 3 for triangle : "))
+#     if choose == 1 :
+#         side = int(input("Enter sides : "))
+#         return side * side
+#     elif choose == 2 :
+#         r = int(input("Enter Radius : "))
+#         return  int(math.pi*math.pow(r,2))
+#     elif choose == 3 :
+#         h = int(input("Enter height : "))
+#         b = int(input("Enter base : "))
+#         return  0.5 * b * h
+#     else:
+#         return "Not a valid option "
+#
+# print(shapeArea())
 
 #--------------------------------------------------------------------------------------#
 
 # 16. Write a program to build a simple calculator using functions.
 
+# def cal () :
+#     operator = int(input("Enter 1 for add , Enter 2 for sub , Enter 3 for mul , Enter 4 for div : "))
+#     if operator == 1 :
+#         a = int(input("Enter  a : "))
+#         b = int (input("Enter b : "))
+#         return  a + b
+#     elif operator == 2 :
+#         a = int(input("Enter  a : "))
+#         b = int(input("Enter b : "))
+#         return math.ceil(a - b)
+#
+#     elif operator == 3 :
+#         a = int(input("Enter  a : "))
+#         b = int(input("Enter b : "))
+#         return a * b
+#     elif operator == 4 :
+#         a = int(input("Enter  a : "))
+#         b = int(input("Enter b : "))
+#         return a // b
+#     else :
+#         return "Invalid Option"
+# print(cal())
 
 #--------------------------------------------------------------------------------------#
 
 # 17. Write a function to calculate the power of a number.
+# def power(num , num2) :
+#     val = 1
+#     for i in range(1 , num2+1, 1):
+#         val = val * num
+#     return  val
+#
+# print(power(int(input("Enter Number : ")), int(input("Enter Power : "))))
 
 #--------------------------------------------------------------------------------------#
 
 # 18. Write a function to convert Celsius to Fahrenheit.
+# def f_to_c (c):
+#     return (c*9)/5 + 32
+# print(f_to_c(25))
+
 
 #--------------------------------------------------------------------------------------#
 
 # 19. Write a function to convert Fahrenheit to Celsius.
+# def celsisuToFahrenit(f):
+#     return (f - 32 ) * 5 / 9
+#
+# print(celsisuToFahrenit(200))
 
 #--------------------------------------------------------------------------------------#
 
 # 20. Write a function to calculate simple interest.
+def simple_interest(p,r,t):
+    return  (p*r*t)/100
+
+print(simple_interest(1000,10))
+
+
 
 #--------------------------------------------------------------------------------------#
